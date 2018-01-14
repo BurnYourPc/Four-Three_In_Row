@@ -10,12 +10,12 @@ In the Three in row implementation we add an improvent at the evaluation-heurist
 
 3   6   9
 
-So if you play '3' you put 'O' in the corresponding square. 
+So if you play '3' you put an 'O' in the corresponding square. 
 
 
 The FourInRow implementation is basic and needs a lot of improvement. Better evaluation-heuristic algoriths are needed and a prunning algorithm has to be added (Alpha–Beta pruning Algorithm). However is able to win a bad player. In FourInRow folder run FourInRow.m file. You always play second and choose the column you want to add your 'O'. For example in position below,
 
-|_|     |_|     |_|     |_|     |_|     |_|     |_|	
+|__|     |_|     |_|     |_|     |_|     |_|     |_|	
 
 |_|	|_|	|_|	|_|	|_|	|_|	|_|	
 
