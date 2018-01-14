@@ -15,29 +15,29 @@ So if you play '3' you put an 'O' in the corresponding square.
 
 The FourInRow implementation is basic and needs a lot of improvement. Better evaluation-heuristic algoriths are needed and a prunning algorithm has to be added (Alpha–Beta pruning Algorithm). However is able to win a bad player. In FourInRow folder run FourInRow.m file. You always play second and choose the column you want to add your 'O'. For example in position below,
 
-|__|     |_|     |_|     |_|     |_|     |_|     |_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|	
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	 X	|_|	|_| 	|_|
+|__|     |__|     |__|       X      |__|     |__|     |__|
 
 
 if you choose '2' then you put an 'O' in the second column and you get the position below,
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|	
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	|_|	|_|	|_|	|_|	|_|	|_|	
+|__|     |__|     |__|     |__|     |__|     |__|     |__|
 
-|_|	 O	|_|	 X	|_|	|_|	|_|
+|__|      O       |__|       X      |__|     |__|     |__|
