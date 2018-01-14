@@ -1,6 +1,6 @@
 # Four-Three_In_Row
 
-Matlab implementation for two similar games. Two programs to play Four or Three in row. The implementations are based on MinMax Algorithm. 
+Matlab implementations for two similar games. Two programs to play Four or Three in row. The implementations are based on MinMax Algorithm. 
 
 In the Three in row implementation we add an improvent at the evaluation-heuristic function of each position in order to achieve aggressive playing (program plays to win and not just "not to lose"). In Triliza folder there is the corresponding implementation. Run Triliza.m file. You choose who starts the game. The squares are numbered as shown below:
 
